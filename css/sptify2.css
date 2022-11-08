@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+background-color: rgb(12, 12, 12);
+color: grey;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.kuch{
+    color:black;
+    text-decoration:none;
+}
+nav{
+font-family: 'ubuntu', 'san-serif';
+}
+.navi{
+    position:fixed;
+}
+.navi ul{
+    /* display: flex; */
+    align-items: center;
+list-style: none;
+height: 75px;
+padding:10px 12px;
+/* background-color: black; */
+/* color: rgb(255, 255, 255); */
+
+}
+
+.navi ul li{
+    padding: 18px 15px;
+
+
+}
+.navi ul li :hover{
+    background-color: green;
+}
+.navi ul li a :hover{
+    font-weight: bolder;
+
+}
+.navi ul li a{
+    padding: 10px ;
+    padding-right: 75px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 12px;
+
+}
+.navi2{
+    margin-left: 250px;
+}
+#parent .pro-navi{
+    display: flex;
+    flex-wrap: wrap;
+}
+#parent .navi2{
+    width: 80vw;
+}
+#searchbar{
+    display: flex;
+    
+    padding: 10px 10px;
+    /* width: 600px;*/
+} 
+.form-outline{
+    justify-content: centers;
+}
+.btn1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    padding: 15px 25px;
+    font: 1.125rem 'Oswald' , Arial, sans-sarif;;
+    font-size: 16px;
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+}
+
+#searchbar .d-flex{
+    padding: 15px 15px;
+    width: 50%;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0 0 460px;
+   width: 10000px;
+
+}
+.d-flex{
+    display: flex;
+}
+/* .d-flex .form-control me-2:hover{
+    background-color: green;
+} */
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: white;
+}
+.brand img{
+    display: flex;
+    height: 65px; 
+    /* width: 45px; */
+    padding: 0 12px;
+
+}
+.pro-container{
+    /* min-height: 75vh; */
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color:  rgb(12, 12, 12);
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progressbar{
+    width: 80vw;
+}
+
+
+
+#prd1{
+    text-align: center;
+}
+#prd1 .pro-container {
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 10px;
+    padding-left: 70px;
+     flex-wrap: wrap;
+}
+#prd1 .pro{
+    width: 17%;
+    min-width:200px  ;
+    padding:10px 12px ;
+cursor: pointer;
+transition: 0.2s ease;
+margin: 15px 0;
+position: relative;
+}
+#prd1 .pro img{
+    width: 100%;
+    border-radius: 7px;
+}
+#prd1 .pro .des{
+text-align: center  ;
+padding: 10px 0;
+color: rgb(163, 163, 163);
+}
+#prd1 .pro :hover{
+    color: green;
+}
+
+
+
+#circ .procir {
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 10px;
+    padding-left: 70px;
+     flex-wrap: wrap;
+
+}
+#circ .cir{
+    width: 17%;
+    min-width:200px  ;
+    padding:10px 12px ;
+cursor: pointer;
+transition: 0.2s ease;
+margin: 15px 0;
+position: relative;
+}
+
+#circ.cir img{
+    width: 100%;
+    border-radius: 50%;
+    height: 30vh;
+
+}
+#circ .cir .des{
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(163, 163, 163);
+    }
+#circ{
+     text-align: center;   
+    }
+
+    #play {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.current-play-img{
+    height: 80px; 
+    left: 0;
+    padding: 0 12px;
+    position: absolute;
+    top: 10px;
+    border-radius: 50%;
+}
+    
+

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+background-color: rgb(12, 12, 12);
+color: grey;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.kuch{
+    color:black;
+    text-decoration:none;
+}
+nav{
+font-family: 'ubuntu', 'san-serif';
+position:fixed;
+display: block;
+top: 0;
+left: 0;
+right: 0;
+z-index: 9999;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+list-style: none;
+height: 75px;
+/* background-color: black; */
+color: rgb(0, 0, 0);
+}
+nav ul li{
+    padding: 0 12px;
+    font-weight: bolder;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: white;
+}
+.brand img{
+    display: flex;
+    height: 65px; 
+    /* width: 45px; */
+    padding: 0 12px;
+
+}
+.pro-container{
+    /* min-height: 75vh; */
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progressbar{
+    width: 80vw;
+}
+
+
+
+#prd1{
+    text-align: center;
+}
+#prd1 .pro-container {
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 10px;
+    padding-left: 70px;
+     flex-wrap: wrap;
+}
+#prd1 .pro{
+    width: 17%;
+    min-width:200px  ;
+    padding:10px 12px ;
+cursor: pointer;
+transition: 0.2s ease;
+margin: 15px 0;
+position: relative;
+}
+#prd1 .pro img{
+    width: 100%;
+    border-radius: 7px;
+}
+#prd1 .pro .des{
+text-align: center  ;
+padding: 10px 0;
+color: rgb(163, 163, 163);
+}
+#prd1 .pro :hover{
+    color: green;
+}
+
+
+
+#circ .procir {
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 10px;
+    padding-left: 70px;
+     flex-wrap: wrap;
+
+}
+#circ .cir{
+    width: 17%;
+    min-width:200px  ;
+    padding:10px 12px ;
+cursor: pointer;
+transition: 0.2s ease;
+margin: 15px 0;
+position: relative;
+}
+
+#circ.cir img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+#circ .cir .des{
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(163, 163, 163);
+    }
+#circ{
+     text-align: center;   
+    }
+
+    #play {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.current-play-img{
+    height: 80px; 
+    left: 0;
+    padding: 0 12px;
+    position: absolute;
+    top: 10px;
+    border-radius: 50%;
+}
+    
+
