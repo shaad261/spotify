@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background-color: rgb(12, 12, 12);
+    color: grey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kuch {
+    color: black;
+    text-decoration: none;
+}
+
+.middle {
+    background-color: rgb(151, 28, 179);
+    margin-left: 250px;
+}
+
+nav {
+    font-family: 'ubuntu', 'san-serif';
+}
+
+.navi {
+    position: fixed;
+}
+
+.navi ul {
+    /* display: flex; */
+    align-items: center;
+    list-style: none;
+    height: 75px;
+    padding: 10px 12px;
+    /* background-color: black; */
+    /* color: rgb(255, 255, 255); */
+}
+
+.navi ul li {
+    padding: 18px 15px;
+
+}
+
+.navi ul li :hover {
+    background-color: green;
+}
+
+.navi ul li a {
+    padding: 10px 65px;
+    font-weight: bolder;
+    color: white;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.brand img {
+    display: flex;
+    height: 65px;
+    padding: 0 12px;
+}
+
+h1 img {
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+#Likedsongs {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 65px;
+    background-color: #6a3386df;
+    padding: 5px;
+
+}
+
+.middle ul {
+    background-color:black;
+}
+
+#Likedsongs img {
+    width: 205px;
+}
+
+.songname img {
+    width: 65px;
+    position: sticky;
+}
+
+.songname {
+    border: 10px;
+    padding: 10px;
+
+}
+.idk:hover{
+    background-color: green;
+}
+
+.songname :hover {
+    /* background-color: green; */
+    border-radius: 5px;
+    /* padding: 10px; */
+    transition:0.3s ease;
+}
+
+.idksmth {}
+
+.abcd {
+    display: flex;
+}
+
+.artist {
+    display: flex;
+
+    flex-direction: column;
+    align-content: center;
+}
+.artist:hover{
+    background-color: green;
+    transition: 0.3s ease;
+}
+
+.idk2 {
+    font-size: small;
+}
+
+.idk {
+    font-size: medium;
+}
+
+.songinfo {
+    text-align: left;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#progressbar {
+    width: 80vw;
+}
+
+#play {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.current-play-img {
+    height: 80px;
+    left: 0;
+    padding: 0 12px;
+    position: absolute;
+    top: 10px;
+    border-radius: 50%;
+}
